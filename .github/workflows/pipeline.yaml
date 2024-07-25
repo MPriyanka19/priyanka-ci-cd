@@ -24,8 +24,8 @@ jobs:
 
       - name: Node.js
         uses: actions/setup-node@v1
-with:
-node-version: '16.x'
+          with:
+            node-version: '16.x'
 
       - name: Clean install dependencies
         working-directory: ./client
