@@ -12,8 +12,8 @@ jobs:
     runs-on: ubuntu-latest
     env:
       AWS_ACCOUNT: ${{ secrets.AWS_ACCOUNT }}
-      GIGS_STACK_NAME: YOUR_STACK_NAME_HERE
-      VITE_STACK_NAME: YOUR_STACK_NAME_HERE
+      GIGS_STACK_NAME: priyanka-gigs-TS-CdkStack
+      VITE_STACK_NAME: priyanka-gigs-TS-CdkStack
       VITE_SERVER_ADDRESS: https://${priyanka-gigs-TS-CdkStack}.infinityworks.academy/api
       VITE_FLYERS_ADDRESS: https://flyers-${priyanka-gigs-TS-CdkStack}.infinityworks.academy
       AWS_REGION: ap-south-1
